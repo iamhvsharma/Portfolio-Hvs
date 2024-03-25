@@ -17,7 +17,7 @@ const Hero = () => {
         </div>
         <div className="w-1/2 flex flex-col gap-16 sm:w-full sm:gap-8">
           <span className="text-4xl sm:text-2xl">
-            &mdash; Hello, I'm Rohan 👋
+            &mdash; Hello, I'm Harshvardhan 👋
           </span>
           <div className="flex flex-col gap-4">
             <span className="text-8xl  font-bold sm:text-5xl">Software</span>
