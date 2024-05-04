@@ -16,21 +16,7 @@ const Header = () => {
           <li className="hover:underline-offset-2 text-gray-400 hover:text-black hover: hover:underline">
             <a href="#projects">Projects</a>
           </li>
-          {/* <li className="hover:underline-offset-2 text-gray-400 hover:text-black hover: hover:underline">
-            <a href="#community">Community Contributions</a>
-          </li>
-          <li className="hover:underline-offset-2 text-gray-400 hover:text-black hover: hover:underline">
-            <a
-              target="_blank"
-              rel="noreferrer"
-              href="https://blogs.rohankulkarni.dev"
-            >
-              Blogs
-            </a>
-          </li> */}
-          {/* <li className="hover:underline-offset-2 text-gray-400 hover:text-black hover: hover:underline">
-            Newsletter
-          </li> */}
+         
         </ul>
       </div>
       <div className="flex flex-row place-items-center gap-8 sm:relative sm:visible sm:place-content-end">
