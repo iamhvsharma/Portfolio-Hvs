@@ -5,7 +5,7 @@ const Experiences = () => {
       id="experience sm:my-12 sm:py-12"
     >
       <span className="text-center text-2xl italic sm:text-lg">
-        "Beyond Syntax, Writing Code That Matter."
+        "Beyond Projects, Building Products That Matters."
       </span>
       <span className="text-center text-8xl font-bold sm:text-5xl">
         Experience
