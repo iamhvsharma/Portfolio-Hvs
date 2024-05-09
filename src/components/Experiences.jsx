@@ -13,23 +13,18 @@ const Experiences = () => {
       <div className="flex flex-col place-items-center gap-12 mt-12 justify-center ">
         <div className="border border-gray-400 w-3/4 flex-row flex place-content-between p-4 rounded-2xl gap-24 sm:flex-col sm:gap-8">
           <div className="flex flex-col gap-1  justify-center items-center font-bold w-96 sm:w-full">
-            <span className="text-2xl">SDE Intern</span>
+            <span className="text-2xl">Web Developer</span>
             <p className="text-center text-lg text-gray-500">
-              Cloudware Solutions LLC
+              Freelance
             </p>
             <span className="text-sm italic text-gray-500">
-              Jan 2023 - Sept 2023
+              Jan 2023 - Present
             </span>
           </div>
 
           <p className="text-left text-lg text-gray-500 w-full sm:text-sm">
-            During my internship at Cloudware Solutions as a Software
-            Development Engineer, I immersed myself in React to construct a
-            dynamic web application. My primary responsibility involved
-            seamlessly integrating the app with Firebase, honing my skills in
-            both front-end development and cloud-based solutions. This
-            experience enriched my proficiency in creating robust and scalable
-            applications.
+            As a Freelance Developer I create stunning websites for my Clients. I assure to serve the best quality websites to my clients and Grow their Business Online. Currently I use MERN Stack and new technologies to build fast, responsive and reliable Web Apps.
+          
           </p>
         </div>
         {/* <div className="border border-gray-400 w-3/4 flex-row flex place-content-between p-4 rounded-2xl gap-24">
