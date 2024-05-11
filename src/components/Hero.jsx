@@ -80,7 +80,7 @@ const Hero = () => {
         </div>
       </div>
       <div className="bg-yellow-200 w-fit mx-auto p-8 rounded-2xl text-center text-2xl sm:text-lg sm:text-justify sm:rounded-none sm:w-full">
-        Learning and Implementing Web Development to build 
+        Learning and Implementing Development to build 
         <span className="font-bold italic"> Products </span>
         which helps people 
         <span className="font-bold italic"> to make their life easyy</span>.
