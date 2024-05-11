@@ -32,14 +32,13 @@ const Projects = () => {
       id="projects"
     >
       <span className="text-center text-2xl italic sm:text-lg">
-        "Beyond Syntax, Writing Code That Matter."
+      "Beyond Projects, Building Products That Matters."
       </span>
       <span className="text-center text-8xl font-bold sm:text-5xl">
         Projects
       </span>
       <span className="text-center text-2xl text-gray-500 italic sm:text-sm px-8">
-        As the projects need to be deployed it will take some time to get this
-        section update but for sure before 2024
+        I am Currently building projects, soon I'll update this section. 
       </span>
       <div className="opacity-25 flex flex-row flex-wrap gap-16 mt-12 justify-center sm:gap-4 sm:flex-col px-8">
         {ProjectList.map((project) => {

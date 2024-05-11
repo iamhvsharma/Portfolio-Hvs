@@ -1,11 +1,10 @@
 const Experiences = () => {
   return (
     <div
-      className="h-fit w-full my-24 flex flex-col gap-8 py-12 "
-      id="experience sm:my-12 sm:py-12"
+      className="h-fit w-full my-24 flex flex-col gap-8 py-12 sm:my-12 sm:py-12" id="experience"
     >
       <span className="text-center text-2xl italic sm:text-lg">
-        "Beyond Projects, Building Products That Matters."
+        "Beyond college, taking real life experience."
       </span>
       <span className="text-center text-8xl font-bold sm:text-5xl">
         Experience

@@ -3,7 +3,7 @@ import { FiExternalLink } from "react-icons/fi";
 
 const ProjectCard = ({ data }) => {
   return (
-    <div className="shadow-lg w-3/12 flex-col flex place-content-between rounded-2xl pb-8 hover:shadow-2xl bg-blue-100 sm:w-full ">
+    <div className="shadow-lg w-3/12 flex-col flex place-content-between rounded-2xl pb-8 hover:shadow-2xl bg-blue-100 sm:w-full " id="projects">
       <div className="flex flex-col gap-4 p-8 sm:gap-2">
         <p className="text-4xl font-bold mb-8 sm:text-3xl">{data.title}</p>
         <div className="flex flex-row flex-wrap gap-4">
