@@ -10,7 +10,7 @@ const AboutMe = () => {
       id="about"
     >
       <span className="text-center text-2xl italic sm:text-sm">
-      "Step into the coder's world, discovering passions, bit by bit." 
+      "Journey through the coder’s world, discovering passions in every keystroke."
       </span>
       <span className="text-center text-8xl font-bold sm:text-5xl">
         About Me
@@ -19,7 +19,7 @@ const AboutMe = () => {
         <div className="w-1/4 h-fit place-self-center flex flex-row justify-center sm:w-1/2">
           <img
             className=" rounded-2xl "
-            src="https://res.cloudinary.com/dw58xmffd/image/upload/v1703021778/387080350_18004808654013051_2312138016343497425_n_isfqxa.jpg"
+            src="https://res.cloudinary.com/quickhireup/image/upload/v1736360609/Picsart_25-01-03_19-34-25-499_c6tssp.jpg"
           />
         </div>
         <div className="flex flex-col gap-12 w-2/5 sm:w-full sm:gap-4">
@@ -27,9 +27,9 @@ const AboutMe = () => {
            
            
           </div>
-          <p className="w-3/4 text-xl leading-loose text-justify place-self-center sm:text-lg sm:mt-8">
+          <p className="w-3/4 text-lg leading-loose text-justify place-self-center sm:text-base sm:mt-8">
             
-"Meet Harshvardhan, a <span className="font-bold">Web Developer and Indie Hacker </span> driven by a passion for crafting seamless digital experiences. With an unwavering commitment to innovation and problem-solving, I embrace challenges as opportunities for growth. Join me on a journey of continuous learning and meaningful contributions to the dynamic world of development."
+"Meet Harshvardhan, a <span className="font-bold">Full Stack Developer & Web3 enthusiast, </span> driven by a passion for creating products in the domain of <span className="font-bold">Web applications & Web3 and Blockchain applications.</span> With a never give up mindset and commitment towards innovation, I embrace challenges as opportunities for growth. Join me on a journey of continuous learning and meaningful contributions to the dynamic world of development."
           </p>
         </div>
       </div>
