@@ -15,18 +15,18 @@ const Hero = () => {
             src="https://avatars.githubusercontent.com/u/123243221?v=4"
           />
         </div>
-        <div className="w-1/2 flex flex-col gap-14 sm:w-full sm:gap-8">
+        <div className="w-1/2 flex flex-col gap-12 sm:w-full sm:gap-8">
           <span className="text-4xl sm:text-2xl">
             &mdash; Hey, I'm Harshvardhan 👋
           </span>
-          <div className="flex flex-col gap-4">
+          <div className="flex flex-col gap-6">
             <span className="text-8xl  font-bold sm:text-5xl">Full-Stack</span>
             <span className="font-bold text-8xl font-mono sm:text-5xl">
               {" "}
               Developer
             </span>
-            <span className="text-4xl italic relative sm:text-xl">
-              and a Indie Hacker 🧑‍💻
+            <span className="text-2xl italic relative sm:text-xl">
+              and a Web3 & blockchain enthusiast 🧑‍💻
             </span>
           </div>
           <div className="flex flex-row gap-12 ">
