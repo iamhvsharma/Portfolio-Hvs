@@ -13,9 +13,9 @@ const Communities = () => {
       url: "https://res.cloudinary.com/quickhireup/image/upload/v1736437971/dcgc_hx9fxv.jpg",
     },
     {
-      title: "KCD MUMBAI 2023",
-      content: `Hosting a track at KCD Mumbai, a dynamic event in the Kubernetes community, was a highlight. As part of the organizing team, I witnessed the convergence of diverse talents in the realm of Kubernetes. Mumbai provided the perfect stage for this collaborative experience, fostering knowledge exchange and pushing the boundaries of container orchestration.`,
-      url: "https://res.cloudinary.com/dw58xmffd/image/upload/v1703228616/355213604_787587226403100_7263326915584750560_n_kiuwak.jpg",
+      title: "HACKINDIA 2024",
+      content: `I participated in HackIndia, where I developed an innovative application on the Solana blockchain. This hackathon provided a dynamic platform to explore cutting-edge blockchain technology and create a decentralized solution. The experience enhanced my skills in Solana development, fostering creativity, collaboration, and a deeper understanding of Web3 applications.`,
+      url: "https://res.cloudinary.com/quickhireup/image/upload/v1736437962/hackindia_ymykzm.jpg",
     },
     {
       title: "PUNE FOSS 2023",
