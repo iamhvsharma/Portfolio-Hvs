@@ -24,7 +24,7 @@ const Communities = () => {
     },
     {
       title: "AMITY STARTUP EXPO",
-      content: `Leading a track at MUG Pune, the MongoDB chapter in Pune, was an enriching endeavor. As an active participant in the organizing team, I witnessed the local MongoDB community coming together to explore the latest trends and best practices. Pune provided a vibrant backdrop for this collaborative exchange, emphasizing the importance of NoSQL databases in modern development landscapes.`,
+      content: `I participated in the Startup Expo at Amity University, an incredible platform for showcasing innovative ideas and networking with aspiring entrepreneurs and industry leaders. The event featured insightful sessions, interactive booths, and mentorship opportunities, fostering collaboration and creativity. It was an enriching experience to present and refine entrepreneurial concepts.`,
       url: "https://res.cloudinary.com/quickhireup/image/upload/v1736437962/amity_zzlna1.jpg",
     },
   ];
@@ -35,13 +35,10 @@ const Communities = () => {
       id="community"
     >
       <span className="text-center text-2xl italic sm:text-lg sm:p-4">
-        "Collaboration First ! Code Second !" - Shoutout to{" "}
-        <a href="https://www.eddiehub.org/" className="italic font-bold">
-          EddieHub
-        </a>
+        "CODE ! COLLABORATE ! CREATE ! CONTRIBUTE ! COMMUNICATE !" - Harshvardhan
       </span>
       <span className="text-center text-8xl font-bold sm:text-5xl">
-        Community Contributions
+        Hackathons & Events
       </span>
       <div className="flex flex-row flex-wrap gap-16 mt-12 justify-center sm:flex-col sm:gap-8 sm:px-4">
         {communitiesList.map((community) => {
