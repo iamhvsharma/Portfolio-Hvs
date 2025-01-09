@@ -18,14 +18,14 @@ const Communities = () => {
       url: "https://res.cloudinary.com/quickhireup/image/upload/v1736437962/hackindia_ymykzm.jpg",
     },
     {
-      title: "PUNE FOSS 2023",
-      content: `Curating a track for PuneFOSS, an open-source meetup organized by FOSS enthusiasts, was a gratifying experience. As part of the organizing team, I witnessed the community spirit thriving in Pune. This event, brimming with discussions and shared passion for open source, underscored the power of collaborative knowledge exchange within the FOSS ecosystem.`,
-      url: "https://res.cloudinary.com/dw58xmffd/image/upload/v1703228790/339274515_611481033840669_1594108768360683823_n_ndagkj.jpg",
+      title: 'AWS DAY 2023',
+      content: `I attended AWS Day, an inspiring event showcasing the latest innovations in cloud computing. It offered insightful sessions on AWS services, hands-on workshops, and networking opportunities with industry experts. The event deepened my understanding of cloud solutions and their impact, inspiring me to leverage AWS for scalable and efficient applications.`,
+      url: "https://res.cloudinary.com/quickhireup/image/upload/v1736443303/awsday_k1ij04.jpg",
     },
     {
-      title: "MUG PUNE 2023",
+      title: "AMITY STARTUP EXPO",
       content: `Leading a track at MUG Pune, the MongoDB chapter in Pune, was an enriching endeavor. As an active participant in the organizing team, I witnessed the local MongoDB community coming together to explore the latest trends and best practices. Pune provided a vibrant backdrop for this collaborative exchange, emphasizing the importance of NoSQL databases in modern development landscapes.`,
-      url: "https://res.cloudinary.com/dw58xmffd/image/upload/v1703229096/386476778_850792050386259_3706650073783872632_n_twq8oy.jpg",
+      url: "https://res.cloudinary.com/quickhireup/image/upload/v1736437962/amity_zzlna1.jpg",
     },
   ];
 
