@@ -7,7 +7,11 @@ const Communities = () => {
       content: `Being a finalist in the Smart India Hackathon 2024 at Lovely Professional University was an inspiring experience. Competing with brilliant minds, we refined our project, showcased creativity, and embraced teamwork. The event fostered collaboration, enhanced our technical skills, and strengthened our resolve to contribute to India’s technological growth through innovation.`,
       url: "https://res.cloudinary.com/quickhireup/image/upload/v1736437971/SIH_f8z0fq.jpg",
     },
-
+    {
+      title: "GCP X GFG'24",
+      content: `We secured 2nd position in the GCP x GFG Hackathon 2024, organized by GeeksforGeeks and Google Cloud. Our project, a decentralized scholarship platform, impressed the judges with its innovation and impact. This hackathon showcased our skills, teamwork, and passion for leveraging technology to create transparent and efficient solutions for education accessibility.`,
+      url: "https://res.cloudinary.com/quickhireup/image/upload/v1736437971/dcgc_hx9fxv.jpg",
+    },
     {
       title: "KCD MUMBAI 2023",
       content: `Hosting a track at KCD Mumbai, a dynamic event in the Kubernetes community, was a highlight. As part of the organizing team, I witnessed the convergence of diverse talents in the realm of Kubernetes. Mumbai provided the perfect stage for this collaborative experience, fostering knowledge exchange and pushing the boundaries of container orchestration.`,
