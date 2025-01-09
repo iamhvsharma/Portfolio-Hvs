@@ -12,7 +12,7 @@ const Hero = () => {
         <div className="flex flex-row justify-center items-center w-1/2 sm:w-1/2">
           <img
             className="rounded-full"
-            src="https://avatars.githubusercontent.com/u/123243221?v=4"
+            src="https://res.cloudinary.com/quickhireup/image/upload/w_400,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_black,b_rgb:262c35/v1736437996/frontpic_kzjxh0.jpg"
           />
         </div>
         <div className="w-1/2 flex flex-col gap-12 sm:w-full sm:gap-8">
@@ -34,7 +34,7 @@ const Hero = () => {
               href="https://drive.google.com/file/d/1L3nJT6ckN0rm7ROjzAki7SwaxOKt0ppM/view?usp=sharing"
               target="_blank"
               rel="noreferrer"
-              className="border-blue-300 border hover:bg-blue-500 hover:text-white  p-4 rounded-2xl text-xl shadow-xl sm:text-sm sm:p-3"
+              className="border-blue-300 border hover:bg-blue-500 hover:text-white  p-4 rounded-2xl text-xl shadow-xl sm:text-sm sm:p-2"
             >
               📄 Download Resume
             </a>
@@ -80,10 +80,11 @@ const Hero = () => {
         </div>
       </div>
       <div className="bg-yellow-200 w-fit mx-auto p-8 rounded-2xl text-center text-2xl sm:text-lg sm:text-justify sm:rounded-none sm:w-full">
-        Learning and Implementing Development to build 
+        Learning and implementing
+        <span className="font-bold italic"> Full Stack Development </span>
+        to build
         <span className="font-bold italic"> Products </span>
-        which helps people 
-        <span className="font-bold italic"> to make their life easyy</span>.
+        that matters.
       </div>
     </div>
   );
