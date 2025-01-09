@@ -3,15 +3,11 @@ import CommunityCard from "./CommunityCard";
 const Communities = () => {
   let communitiesList = [
     {
-      title: "React India 2023",
-      content: `Participating in React India at Goa was a transformative experience. As a member of Team React India, I immersed myself in a dynamic conference featuring multiple insightful talks. The vibrant setting of Goa provided the perfect backdrop for this enriching event, fostering collaboration and learning within the React community.`,
-      url: "https://res.cloudinary.com/dw58xmffd/image/upload/v1703189981/F8DH4C5aIAAkaEu_xxqofo.jpg",
+      title: "SIH FINALS 2024",
+      content: `Being a finalist in the Smart India Hackathon 2024 at Lovely Professional University was an inspiring experience. Competing with brilliant minds, we refined our project, showcased creativity, and embraced teamwork. The event fostered collaboration, enhanced our technical skills, and strengthened our resolve to contribute to India’s technological growth through innovation.`,
+      url: "https://res.cloudinary.com/quickhireup/image/upload/v1736437971/SIH_f8z0fq.jpg",
     },
-    {
-      title: "Hack The League 2.0",
-      content: `Being part of the organizing team for "Hack the League" in Jaipur, a MLH chapter hackathon, was exhilarating. Bringing together innovation enthusiasts, the event became a hub of creativity and collaboration. As we curated challenges and facilitated the hackathon atmosphere, Jaipur served as a vibrant backdrop for this thrilling gathering of tech minds.`,
-      url: "https://res.cloudinary.com/dw58xmffd/image/upload/v1703228702/340678137_931656447884530_6400185077649387270_n_k0osl5.jpg",
-    },
+
     {
       title: "KCD MUMBAI 2023",
       content: `Hosting a track at KCD Mumbai, a dynamic event in the Kubernetes community, was a highlight. As part of the organizing team, I witnessed the convergence of diverse talents in the realm of Kubernetes. Mumbai provided the perfect stage for this collaborative experience, fostering knowledge exchange and pushing the boundaries of container orchestration.`,
