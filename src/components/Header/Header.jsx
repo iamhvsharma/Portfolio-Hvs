@@ -3,7 +3,7 @@ import { FaLightbulb } from "react-icons/fa";
 const Header = () => {
   return (
     <div className="bg-white border flex-row items-center border-b-gray-500 h-20 flex justify-between gap-8 px-24 sm:justify-between sm:px-4 sm:border-0">
-      <span className="text-xl italic sm:hidden">harshvardhan.tech </span>
+      <span className="text-xl italic sm:hidden cursor-pointer">harshvardhan.tech </span>
       {/* OR harshvardhan.site  */}
       <div className="flex flex-row">
         <ul className="flex flow-row gap-12 text-xl cursor-pointer sm:hidden ">
