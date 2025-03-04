@@ -47,7 +47,7 @@ const Hero = () => {
               📩 Get In Touch
             </a>
           </div>
-          <div className="text-5xl flex flex-row gap-8 sm:text-3xl">
+          <div className="text-5xl flex flex-row gap-8 sm:text-3xl w-[30vw] justify-center">
             <a
               href="https://twitter.com/iamhvsharma"
               target="_blank"
