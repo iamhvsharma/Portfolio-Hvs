@@ -9,10 +9,10 @@ const Hero = () => {
   return (
     <div className="flex flex-col min-h-screen ">
       <div className="flex flex-row justify-center place-items-center gap-24 p-24  sm:flex-col sm:p-8 sm:gap-12">
-        <div className="flex flex-row justify-center items-center w-1/2 sm:w-1/2">
+        <div className="flex flex-row justify-center items-center w-1/2 sm:w-1/2 border-black">
           <img
             className="rounded-full"
-            src="https://res.cloudinary.com/quickhireup/image/upload/w_400,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_black,b_rgb:262c35/v1736437996/frontpic_kzjxh0.jpg"
+            src="https://avatars.githubusercontent.com/u/123243221?v=4"
           />
         </div>
         <div className="w-1/2 flex flex-col gap-12 sm:w-full sm:gap-8">

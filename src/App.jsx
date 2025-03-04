@@ -9,13 +9,13 @@ import Communities from "./components/Communities";
 
 const App = () => {
   return (
-    <div>
+    <div className="bg-gray-50">
       <Hero />
       
 
       <AboutMe />
-      <Experiences />
       <Projects />
+      <Experiences />
       <Communities />
       {/* <ToolKit /> */}
       <Footer />
