@@ -1,113 +1,53 @@
-import { useEffect, useRef } from "react"
-import { FaDiscord, FaGlobe } from "react-icons/fa"
+import React from "react";
+import { Button } from "@/components/ui/button";
+import {
+  Card,
+  CardContent,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
 
-const ProjectCard = ({ data }) => {
-  const cardRef = useRef(null)
-
-  useEffect(() => {
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            entry.target.classList.add("show")
-          }
-        })
-      },
-      {
-        threshold: 0.1,
-      },
-    )
-
-    if (cardRef.current) {
-      observer.observe(cardRef.current)
-    }
-
-    return () => {
-      if (cardRef.current) {
-        observer.unobserve(cardRef.current)
-      }
-    }
-  }, [])
-
+const ProjectCard = ({ project }) => {
   return (
-    <div
-      ref={cardRef}
-      className="fade-in-slide-up w-full max-w-md mx-auto bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 ease-in-out p-6 border border-gray-100"
-    >
-      {/* Beta Badge */}
-      <div className="flex justify-end mb-4">
-        <button className="px-4 py-1 text-sm bg-gray-100 rounded-full hover:bg-gray-200 transition-colors duration-200 flex items-center gap-2">
-          ✨ Join the beta
-        </button>
+    <Card className="w-full max-w-[380px] h-full bg-white text-gray-800 border border-gray-200 overflow-hidden hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+      {/* Image Section with hover effect */}
+      <div className="relative h-[180px] w-full overflow-hidden">
+        <div 
+          className="h-full w-full bg-cover bg-center absolute inset-0 transition-transform duration-500 hover:scale-110" 
+          style={{ backgroundImage: `url(${project.image || "/default-image.jpg"})` }}
+        ></div>
+        <div className="absolute inset-0 bg-gradient-to-t from-gray-100/70 to-transparent"></div>
       </div>
+      
+      <CardHeader className="pb-2">
+        <CardTitle className="text-xl font-bold text-gray-900">{project.title}</CardTitle>
+        <p className="text-sm text-gray-600 mt-2 line-clamp-2">{project.description}</p>
+      </CardHeader>
+      
+      <CardContent className="pb-0">
+        {/* Tech Tags */}
+        <div className="flex flex-wrap gap-2">
+          {project.technologies.map((tech, index) => (
+            <span key={index} className="px-2 py-1 text-xs bg-gray-100 text-gray-700 rounded-md border border-gray-200">{tech}</span>
+          ))}
+        </div>
+      </CardContent>
+      
+      <CardFooter className="flex gap-2 mt-4">
+        {project.website && (
+          <Button asChild className="bg-blue-600 hover:bg-blue-700 text-white">
+            <a href={project.website} target="_blank" rel="noopener noreferrer">Live Demo</a>
+          </Button>
+        )}
+        {project.github && (
+          <Button variant="outline" asChild className="text-gray-700 border-gray-300 hover:bg-gray-50">
+            <a href={project.github} target="_blank" rel="noopener noreferrer">GitHub</a>
+          </Button>
+        )}
+      </CardFooter>
+    </Card>
+  );
+};
 
-      {/* Title */}
-      <h1 className="text-4xl font-bold mb-3">{data.title}</h1>
-
-      {/* Description */}
-      <p className="text-gray-600 text-lg mb-6">{data.description}</p>
-
-      {/* Discord Button */}
-      <button className="w-full bg-indigo-600 text-white py-3 rounded-lg mb-6 hover:bg-indigo-700 transition-colors duration-200 flex items-center justify-center gap-2">
-        <FaDiscord className="text-xl" />
-        Connect
-      </button>
-
-      {/* Project Info */}
-      <div className="mb-6">
-        <h2 className="text-2xl font-bold mb-2">{data.title}</h2>
-        <p className="text-gray-500 mb-4">{data.date}</p>
-        <p className="text-gray-600">{data.content}</p>
-      </div>
-
-      {/* Tech Stack */}
-      <div className="flex flex-wrap gap-2 mb-6">
-        {data.skills.map((skill) => (
-          <span
-            key={skill}
-            className="px-3 py-1 bg-gray-100 rounded-full text-sm font-medium hover:bg-gray-200 transition-colors duration-200"
-          >
-            {skill}
-          </span>
-        ))}
-      </div>
-
-      {/* Website Link */}
-      <a
-        href={data.websiteUrl}
-        className="inline-flex items-center gap-2 px-4 py-2 rounded-lg border border-gray-200 hover:bg-gray-50 transition-all duration-200"
-      >
-        <FaGlobe className="text-gray-600" />
-        <span className="font-medium">Website</span>
-      </a>
-    </div>
-  )
-}
-
-// Add the required animation styles
-const style = document.createElement("style")
-style.textContent = `
-  .fade-in-slide-up {
-    opacity: 0;
-    transform: translateY(20px);
-    transition: all 0.6s ease-out;
-  }
-
-  .fade-in-slide-up.show {
-    opacity: 1;
-    transform: translateY(0);
-  }
-
-  @keyframes shimmer {
-    0% {
-      background-position: -1000px 0;
-    }
-    100% {
-      background-position: 1000px 0;
-    }
-  }
-`
-document.head.appendChild(style)
-
-export default ProjectCard
-
+export default ProjectCard;
