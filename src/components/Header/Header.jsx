@@ -24,7 +24,7 @@ const Header = () => {
           href="mailto:itshvsharma@gmail.com"
           target="_blank"
           rel="noreferrer"
-          className="text-xl bg-purple-600 rounded-2xl p-3 text-white   font-bold"
+          className="text-xl bg-blue-600 rounded-2xl p-3 text-white   font-bold"
         >
           Hire Me !!
         </a>
