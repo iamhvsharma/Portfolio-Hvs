@@ -1,7 +1,8 @@
 const Experiences = () => {
   return (
     <div
-      className="h-fit w-full my-24 flex flex-col gap-8 py-12 sm:my-12 sm:py-12" id="experience"
+      className="w-full my-24 flex flex-col gap-8 py-12 sm:my-12 sm:py-12"
+      id="experience"
     >
       <span className="text-center text-2xl italic sm:text-lg">
         "Beyond college, taking real life experience."
@@ -9,37 +10,41 @@ const Experiences = () => {
       <span className="text-center text-8xl font-bold sm:text-5xl">
         Experience
       </span>
-      <div className="flex flex-col place-items-center gap-12 mt-12 justify-center ">
-        <div className="border border-gray-400 w-3/4 flex-row flex place-content-between p-4 rounded-2xl gap-24 sm:flex-col sm:gap-8">
-          <div className="flex flex-col gap-1  justify-center items-center font-bold w-96 sm:w-full">
-            <span className="text-2xl">Web Developer</span>
-            <p className="text-center text-lg text-gray-500">
-              Freelance
-            </p>
+
+      <div className="flex flex-col items-center gap-12 mt-12">
+        {/* Experience 1 */}
+        <div className="border border-gray-400 w-11/12 sm:w-5/6 lg:w-3/4 flex flex-row sm:flex-col sm:gap-6 justify-between p-6 sm:p-4 rounded-2xl gap-24 shadow-md transition-all">
+          {/* Left */}
+          <div className="flex flex-col items-center text-center sm:text-left sm:items-start gap-1 font-bold w-80 sm:w-full">
+            <span className="text-2xl sm:text-xl">Genda Phool</span>
+            <p className="text-lg sm:text-base text-gray-500">Full Stack Developer</p>
             <span className="text-sm italic text-gray-500">
-              Jan 2023 - Present
+              Feb 2025 - Present
             </span>
           </div>
 
-          <p className="text-left text-lg text-gray-500 w-full sm:text-sm">
-            As a Freelance Developer I create stunning websites for my Clients. I assure to serve the best quality websites to my clients and Grow their Business Online. Currently I use MERN Stack and new technologies to build fast, responsive and reliable Web Apps.
-          
+          {/* Right */}
+          <p className="text-lg sm:text-base text-gray-600 w-full">
+          Building a subscription-based eCommerce platform, handling user onboarding, payments, and subscriptions using MERN stack. Ensured fast, scalable, and secure web apps with Stripe integration, optimized APIs, and responsive UI, improving performance and user engagement.
           </p>
         </div>
-         <div className="border border-gray-400 w-3/4 flex-row flex place-content-between p-4 rounded-2xl gap-24">
-          <div className="flex flex-col gap-1  justify-center items-center font-bold w-96">
-            <span className="text-2xl">Indie Hacker</span>
-            <p className="text-center text-lg text-gray-500">
-              Developing Products
+
+        {/* Experience 2 (Now same layout as Experience 1) */}
+        <div className="border border-gray-400 w-11/12 sm:w-5/6 lg:w-3/4 flex flex-row sm:flex-col sm:gap-6 justify-between p-6 sm:p-4 rounded-2xl gap-24 shadow-md transition-all">
+          {/* Left */}
+          <div className="flex flex-col items-center text-center sm:text-left sm:items-start gap-1 font-bold w-80 sm:w-full">
+            <span className="text-2xl sm:text-xl">Conio IT Solutions</span>
+            <p className="text-lg sm:text-base text-gray-500">
+              Full Stack Intern
             </p>
             <span className="text-sm italic text-gray-500">
-              April 2024 - Present
+              July 2024 - Aug 2024
             </span>
           </div>
 
-          <p className="text-left text-lg text-gray-500 w-full">
-            I am working as a Indie Hacker to build my own products which are developed to solve a particular problem.
-            We are planning to launch our first Application in June END. 
+          {/* Right */}
+          <p className="text-lg sm:text-base text-gray-600 w-full">
+          Enhanced web app performance by 40% through React.js optimizations and efficient backend APIs. Designed secure, scalable RESTful APIs with 99.9% uptime, ensuring seamless frontend-backend communication. Optimized Node.js and PostgreSQL backend, reducing API response time by 20%.
           </p>
         </div>
       </div>
@@ -47,4 +52,4 @@ const Experiences = () => {
   );
 };
 
-export default Experiences;
+export default Experiences;
