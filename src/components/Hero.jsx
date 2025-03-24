@@ -15,7 +15,7 @@ const Hero = () => {
             src="https://avatars.githubusercontent.com/u/123243221?v=4"
           />
         </div>
-        <div className="w-1/2 flex flex-col gap-12 sm:w-full sm:gap-8">
+        <div className="w-1/2 flex flex-col gap-10 sm:w-full sm:gap-8">
           <span className="text-4xl sm:text-2xl">
             &mdash; Hey, I'm Harshvardhan 👋
           </span>
@@ -25,16 +25,16 @@ const Hero = () => {
               {" "}
               Developer
             </span>
-            <span className="text-2xl italic relative sm:text-xl">
+            <span className="text-2xl italic relative sm:text-lg">
               and a Web3 & blockchain enthusiast 🧑‍💻
             </span>
           </div>
-          <div className="flex flex-row gap-12 ">
+          <div className="flex flex-wrap gap-6 sm:justify-center">
             <a
               href="https://drive.google.com/file/d/1L3nJT6ckN0rm7ROjzAki7SwaxOKt0ppM/view?usp=sharing"
               target="_blank"
               rel="noreferrer"
-              className="border-blue-300 border hover:bg-blue-500 hover:text-white  p-4 rounded-2xl text-xl shadow-xl sm:text-sm sm:p-2"
+              className="border border-blue-300 hover:bg-blue-500 hover:text-white px-6 py-3 rounded-2xl text-lg shadow-md sm:text-sm sm:px-4 sm:py-2"
             >
               📄 Download Resume
             </a>
@@ -42,12 +42,14 @@ const Hero = () => {
               href="mailto:itshvsharma@gmail.com"
               target="_blank"
               rel="noreferrer"
-              className="border-blue-300 border hover:bg-blue-500 hover:text-white  p-4 rounded-2xl text-xl shadow-xl sm:text-sm sm:p-3"
+              className="border border-blue-300 hover:bg-blue-500 hover:text-white px-6 py-3 rounded-2xl text-lg shadow-md sm:text-sm sm:px-4 sm:py-2"
             >
               📩 Get In Touch
             </a>
           </div>
-          <div className="text-5xl flex flex-row gap-8 sm:text-3xl w-[30vw] justify-center">
+
+        
+          <div className="w-1/2 md:w-1/2 sm:w-full flex flex-wrap gap-6 justify-center items-center text-5xl sm:text-3xl">
             <a
               href="https://twitter.com/iamhvsharma"
               target="_blank"
