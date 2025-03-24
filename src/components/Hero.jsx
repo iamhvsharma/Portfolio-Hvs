@@ -31,7 +31,7 @@ const Hero = () => {
           </div>
           <div className="flex flex-wrap gap-6 sm:justify-center">
             <a
-              href="https://drive.google.com/file/d/1L3nJT6ckN0rm7ROjzAki7SwaxOKt0ppM/view?usp=sharing"
+              href="https://drive.google.com/file/d/1EmQmOsyqTCAHdevrHGbzZgPXPsDPNOQg/view?usp=sharing"
               target="_blank"
               rel="noreferrer"
               className="border border-blue-300 hover:bg-blue-500 hover:text-white px-6 py-3 rounded-2xl text-lg shadow-md sm:text-sm sm:px-4 sm:py-2"
@@ -50,6 +50,13 @@ const Hero = () => {
 
         
           <div className="w-1/2 md:w-1/2 sm:w-full flex flex-wrap gap-6 justify-center items-center text-5xl sm:text-3xl">
+            <a
+              href="https://github.com/iamhvsharma"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FaGithub />
+            </a>
             <a
               href="https://twitter.com/iamhvsharma"
               target="_blank"
@@ -70,13 +77,6 @@ const Hero = () => {
               rel="noreferrer"
             >
               <AiFillInstagram />
-            </a>
-            <a
-              href="https://github.com/iamhvsharma"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <FaGithub />
             </a>
           </div>
         </div>
