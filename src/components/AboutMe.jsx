@@ -10,7 +10,8 @@ const AboutMe = () => {
       id="about"
     >
       <span className="text-center text-2xl italic sm:text-sm">
-      "Journey through the coder’s world, discovering passions in every keystroke."
+        "Journey through the coder’s world, discovering passions in every
+        keystroke."
       </span>
       <span className="text-center text-8xl font-bold sm:text-5xl">
         About Me
@@ -23,13 +24,13 @@ const AboutMe = () => {
           />
         </div>
         <div className="flex flex-col gap-12 w-2/5 sm:w-full sm:gap-4">
-          <div className="flex flex-row justify-evenly sm:flex-col px-12 sm:gap-8">
-           
-           
-          </div>
+          <div className="flex flex-row justify-evenly sm:flex-col px-12 sm:gap-8"></div>
           <p className="w-3/4 text-lg leading-loose text-justify place-self-center sm:text-base sm:mt-8">
-            
-"Meet Harshvardhan, a <span className="font-bold">Full Stack Developer & Web3 enthusiast, </span> driven by a passion for creating products in the domain of <span className="font-bold">Web applications & Web3 and Blockchain applications.</span> With a never give up mindset and commitment towards innovation, I embrace challenges as opportunities for growth. Join me on a journey of continuous learning and meaningful contributions to the dynamic world of development."
+            "I don’t just build software—<span className="font-bold">I build experiences, systems, and
+            solutions that scale.</span> From full-stack development to blockchain and
+            DevOps, I explore technology’s evolving landscape to create products
+            that matter. Every challenge is an opportunity to learn, innovate,
+            and push the boundaries of what’s possible. The tech world moves fast, and I’m always up for the challenge of keeping up—and staying ahead."
           </p>
         </div>
       </div>
