@@ -1,36 +1,50 @@
 import React from "react";
 import ProjectCard from "./ProjectCard";
+import invoxify from "../assets/invoxify.png";
 
 const Projects = () => {
   // Array of project objects with the correct property structure
   const projectsData = [
     {
-      title: "Eternal Key",
+      title: "Invoxify",
       description:
-        "The next generation of digital asset inheritance. Secure, automated, and decentralized on Solana.",
-      image: "../assets/invoxify.png",
-      technologies: ["Next.js", "Rust", "Anchor", "TypeScript"],
-      website: "https://eternalkey.xyz",
-      github: "https://github.com/user/eternal-key",
+        "A Invoice management system for freelancers and small businesses.",
+      image: invoxify,
+      technologies: ["Next.js", "PostgreSQL", "TypeScript"],
+      website: "https://project.invoxify.vercel.app",
+      github: "https://github.com/iamhvsharma/Bookease",
     },
     {
-      title: "Eternal Key",
+      title: "Bookease",
       description:
-        "The next generation of digital asset inheritance. Secure, automated, and decentralized on Solana.",
+        "Bookease is plaform where you can book meetings with ease. Saving time and effort.",
       image: "../assets/invoxify.png",
-      technologies: ["Next.js", "Rust", "Anchor", "TypeScript"],
-      website: "https://eternalkey.xyz",
-      github: "https://github.com/user/eternal-key",
+      technologies: ["Next.js", "PostgreSQL", "TypeScript"],
+
+      website: "https://project-bookease.vercel.app",
+      github: "https://github.com/iamhvsharma/Bookease",
     },
     {
-      title: "Eternal Key",
+      title: "QuickHireup",
       description:
-        "The next generation of digital asset inheritance. Secure, automated, and decentralized on Solana.",
+        "I build backend of a Job/Internship Platform. The project was build in SIH-24 Hackathon Finals.",
       image: "../assets/invoxify.png",
-      technologies: ["Next.js", "Rust", "Anchor", "TypeScript"],
-      website: "https://eternalkey.xyz",
-      github: "https://github.com/user/eternal-key",
+      technologies: ["Node.js", "Express.js", "MongoDB", "Javascript"],
+      // website: "https://eternalkey.xyz",
+      github: "https://github.com/iamhvsharma/quickhireup-internal",
     },
+  
+    {
+      title: "Django-X",
+      description:
+        "A basic CRUD application built using Django to understand Django & its functionalities.",
+      image: "../assets/invoxify.png",
+      technologies: ["Django", "Python", "Sqlite3"],
+      // website: "https://eternalkey.xyz",
+      github: "https://github.com/iamhvsharma/Django-X",
+    },
+    
+   
     // ...other projects
   ];
 
