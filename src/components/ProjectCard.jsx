@@ -17,7 +17,7 @@ const ProjectCard = ({ project }) => {
           className="h-full w-full bg-cover bg-center absolute inset-0 transition-transform duration-500 hover:scale-110" 
           style={{ backgroundImage: `url(${project.image || "/default-image.jpg"})` }}
         ></div>
-        <div className="absolute inset-0 bg-gradient-to-t from-gray-100/70 to-transparent"></div>
+        <div className="absolute inset-0 bg-gradient-to-t from-gray-100/30 to-transparent"></div>
       </div>
       
       <CardHeader className="pb-2">

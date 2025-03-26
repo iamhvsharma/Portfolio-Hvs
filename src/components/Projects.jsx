@@ -1,6 +1,9 @@
 import React from "react";
 import ProjectCard from "./ProjectCard";
 import invoxify from "../assets/invoxify.png";
+import bookease from "../assets/bookease.png";
+import quickhireup from "../assets/quickhireup.png";
+import djangox from "../assets/djangox.png";
 
 const Projects = () => {
   // Array of project objects with the correct property structure
@@ -18,7 +21,7 @@ const Projects = () => {
       title: "Bookease",
       description:
         "Bookease is plaform where you can book meetings with ease. Saving time and effort.",
-      image: "../assets/invoxify.png",
+      image: bookease,
       technologies: ["Next.js", "PostgreSQL", "TypeScript"],
 
       website: "https://project-bookease.vercel.app",
@@ -28,7 +31,7 @@ const Projects = () => {
       title: "QuickHireup",
       description:
         "I build backend of a Job/Internship Platform. The project was build in SIH-24 Hackathon Finals.",
-      image: "../assets/invoxify.png",
+      image: quickhireup,
       technologies: ["Node.js", "Express.js", "MongoDB", "Javascript"],
       // website: "https://eternalkey.xyz",
       github: "https://github.com/iamhvsharma/quickhireup-internal",
@@ -38,7 +41,7 @@ const Projects = () => {
       title: "Django-X",
       description:
         "A basic CRUD application built using Django to understand Django & its functionalities.",
-      image: "../assets/invoxify.png",
+      image: djangox,
       technologies: ["Django", "Python", "Sqlite3"],
       // website: "https://eternalkey.xyz",
       github: "https://github.com/iamhvsharma/Django-X",
